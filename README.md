@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ```
 **🔹 Option A — Train from Scratch**
 ```bash
-python peach_tree_disease_training.py
+follow the .ipynb file
 ```
 This will split the dataset, train the CNN for 10 epochs, and save the model as:
 - `peach_tree_disease_model.keras`
@@ -39,7 +39,7 @@ predictions = model.predict(test_generator)
 ```
 
 ## 📊 Results
-Training for 10 epochs achieved high accuracy on both training and validation sets. The model is suitable for detecting common peach tree diseases in field imagery.
+Training for certain epochs achieved high accuracy on both training and validation sets. The model is suitable for detecting common peach tree diseases in field imagery.
 
 ## 📜 License
 This project is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**. You are free to share and adapt for non-commercial purposes with appropriate credit. Full license: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
