@@ -25,12 +25,13 @@ unzip peach-tree-disease.zip -d data/peach_tree_disease
 pip install -r requirements.txt
 ```
 **🔹 Option A — Train from Scratch**
-```bash
-follow the .ipynb file
-```
+
+-`follow the .ipynb file`
+
 This will split the dataset, train the CNN for 10 epochs, and save the model as:
 - `peach_tree_disease_model.keras`
 - `peach_tree_disease_weights.weights.h5`
+
 **🔹 Option B — Use Pre-Trained Weights**
 ```python
 from tensorflow.keras.models import load_model
